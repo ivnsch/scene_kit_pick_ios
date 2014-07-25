@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, ItemSelectionDelegate {
     
-    @IBOutlet var sceneView: SceneView
-    @IBOutlet var selectionLabel: UILabel
+    @IBOutlet var sceneView: SceneView!
+    @IBOutlet var selectionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
